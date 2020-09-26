@@ -1,0 +1,10 @@
+2020/09/25 23:25:53 Error:: open path/to/config.toml: no such file or directory
+Can't open configuration file.
+main.readConfig
+	/Users/rahulsharma/Desktop/learning/go/error_handling/errors.go:19
+main.main
+	/Users/rahulsharma/Desktop/learning/go/error_handling/errors.go:39
+runtime.main
+	/usr/local/go/src/runtime/proc.go:204
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1374
