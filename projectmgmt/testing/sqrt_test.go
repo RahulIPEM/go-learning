@@ -53,3 +53,13 @@ func TestSimple(t *testing.T) {
 		})
 	}
 }
+
+// BenchmarkSqrt for sqrt func
+func BenchmarkSqrt(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_, err := Sqrt(float64(i))
+		if err != nil {
+			b.Fatal(err)
+		}
+	}
+}
